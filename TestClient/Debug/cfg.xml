@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Client>
+    <!--><ip>10.100.71.156</ip><-->
+	<ip>10.10.83.132</ip>
+	<port>30001</port>
+	<ht_timeout>3</ht_timeout>
+	<io_threads>1</io_threads>
+	<work_threads>1</work_threads>
+	<FuncId>
+<ROUTE  Min="4000" Max="4999"/>
+<ROUTE  Min="110000" Max="111000"/>
+<ROUTE  Min="111001" Max="112000"/>
+<ROUTE  Min="112001" Max="113000"/>
+	</FuncId>
+	<StringNum>3072</StringNum>
+	<CirculNum>10000</CirculNum> <!--循环次数-->
+</Client>
+<!-->
+<LOG>
+	<path>D:\hqhissrv\</path>
+	<name>hqhissrv.log</name>
+</LOG>
+<-->
